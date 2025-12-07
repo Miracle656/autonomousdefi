@@ -1,10 +1,10 @@
-// Deployed Contract Information (Updated Deployment)
-export const PACKAGE_ID = '0xb3b965015c73301d014b99560f168083a2dc18257c3cd1e243e8e19758a61f1f'
-export const VAULT_OBJECT_ID = '0x07b23ba198507b3ab474d636d098ee310f38ca7a72d2b6e77574a970f826ef3e'
+// Deployed Contract Information (Updated: Dec 7, 2025 - Fixed Accounting)
+export const PACKAGE_ID = '0x3fbc2f63ae028638a4f37905378336146b6eb8cb03526119b44b099b1f5ebfdc'
+export const VAULT_OBJECT_ID = '0x5b50dd3e09aa47607a609dfd32bedcd69f66739eab7b1a86ab28d5208ce9c737'
 
 // Capability Objects (Owned by deployer)
-export const STRATEGY_CAP_ID = '0x806230fbfcecd3edc6e63583239833d6d5f54c3d470a00f90443a8a748879256'
-export const IKA_CAP_ID = '0x638b1ff10437d862bbef912e7dd83d736c690b63f2146a094853725dfbc75d97'
+export const STRATEGY_CAP_ID = '0xb1cf329c7349770e04099b4c3f4e4ec5faa4d0bcafcce6135febec2f65d4fcd9'
+export const IKA_CAP_ID = '0x9e2cd0002d62c5de2a4f2eda5a3b7021fb29a4dc9b397b876a59a41657517272'
 
 // Module Names
 export const VAULT_MODULE = 'vault'

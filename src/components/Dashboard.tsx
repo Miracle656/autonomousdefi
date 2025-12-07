@@ -6,6 +6,7 @@ import StrategyLog from './StrategyLog'
 import SettingsModal from './SettingsModal'
 import CrossChainPanel from './CrossChainPanel'
 import WalletConnection from './WalletConnection'
+import { ProtocolManager } from './ProtocolManager'
 import { useState, useEffect, useRef } from 'react'
 import { fadeInUp, staggerFadeIn } from '../utils/animations'
 
@@ -77,6 +78,11 @@ export default function Dashboard() {
                 {/* Mid-Right: Strategy Log */}
                 <div className="lg:col-span-1 grid-item">
                     <StrategyLog />
+                </div>
+
+                {/* Mid-Right: Protocol Manager */}
+                <div className="lg:col-span-1 grid-item">
+                    <ProtocolManager />
                 </div>
 
                 {/* Bottom: Cross-Chain Status */}
